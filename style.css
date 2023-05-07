@@ -1,0 +1,107 @@
+/* N A V B A R */
+
+.cocalogo{
+    height: 28px;
+    width: 100px;
+}
+
+
+
+/* S E C T I O N  1 */
+
+  .sec1 {
+    background: url("./images/net1.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+  }
+
+  .title1{
+    font-family: 'lato', cursive;
+    margin-top: 165px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 110px;
+  }
+
+  .btn-custom {
+    font-family: 'lato', cursive;
+    font-size: 20px;
+    background-color: #fc1d1d;
+    color: #ffffff;
+    border-color: #fc1d1d;
+    border-radius: 25px;
+  }
+  
+  .btn-custom:hover {
+    font-family: 'lato', cursive;
+    font-size: 20px;
+    background-color: #7dfd71;
+    color: #000000;
+    border-radius: 25px;
+  }
+
+
+
+/* M E D I A   Q U E R Y   S E C T I O N  1 */
+
+@media (min-width: 325px) and (max-width: 767px) {
+
+  .sec1{
+    min-height: 580px;
+  }  
+
+  .title1{
+    font-size: 65px;
+  }
+
+  .btn-custom {
+    font-size: 20px;
+  }
+  
+  .btn-custom:hover {
+    font-size: 20px;
+  } 
+}   
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .title1{
+    font-size: 75px;
+  }
+}
+
+@media (min-width: 10px) and (max-width: 324px) {
+
+  .title1{
+    font-size: 55px;
+  }
+}
+
+
+
+/* S E C T I O N  2 */
+
+.title2{
+  font-family: 'lato', cursive;
+  font-size: 7vw;
+}
+
+.para2{
+  font-size: 18px;
+}
+
+.pess{
+  height: 250px;
+  width: 250px;
+}
+
+
+/* M E D I A   Q U E R Y   S E C T I O N  2 */
+
+@media (min-width: 10px) and (max-width: 575px) {
+
+  .title2{
+    font-size: 12vw;
+  }
+}    
